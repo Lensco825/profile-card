@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lora:ital@0;1&family=Poiret+One&family=Poppins:wght@300;400&family=Red+Hat+Display:wght@300;400&family=Tilt+Neon&family=Unbounded&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(95deg, #ffa585, #ffeda0);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 360px;
+    height: 440px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 60px;
+}
+
+.pfp {
+text-align: center;
+font-family: Poiret One;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.education, .completed, .experiance {
+    text-align: center;
+    font-family: Red Hat Display;
+}
+
+.intro {
+    text-align: center;
+    font-family: Red Hat Display;
+    font-weight: 300;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+gap: 8px;
+}
+
+.socials > img {
+    width: 25px;
+}
+
+ion-icon {
+    font-size: 25px;
+}

@@ -14,15 +14,20 @@ body {
 
 .card {
     width: 360px;
-    height: 440px;
+    height: 455px;
     border-radius: 10px;
     background-color: white;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
+  box-shadow: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-img {
+.pfp > img {
     border-radius: 50%;
     width: 60px;
+  border: solid;
 }
 
 .pfp {
@@ -50,6 +55,7 @@ font-family: Poiret One;
     display: flex;
     justify-content: flex-end;
 gap: 8px;
+  margin-top: 5px
 }
 
 .socials > img {
@@ -58,4 +64,29 @@ gap: 8px;
 
 ion-icon {
     font-size: 25px;
+}
+
+.email {
+  background-color: black;
+  color: white;
+ display: flex;
+  justify-content: center;
+  font-family: Poppins;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.email:hover {
+  background-color: #00D9C0;
+}
+
+
+.programmingLanguages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.language {
+  width: 40px;
 }
